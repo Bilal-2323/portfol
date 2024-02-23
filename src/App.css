@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: nunito;
+  src: url(../public/Nunito-Italic-VariableFont_wght.ttf);
+}
+.nunito{
+  font-family: nunito;
+}
+.bg
+{
+  
+  background-image: url('../src/images/bgimg3.jpg');
+  background-size: cover;
+}
