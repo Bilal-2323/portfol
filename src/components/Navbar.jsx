@@ -43,9 +43,10 @@ const redirect = () =>
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-700">
           <Links to="hero" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</p></Links>
-          <a href="#" className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</a>
-          <a href="#" className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Services</a>
-          <a href="#" className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+          <Links to="aboutme" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</p></Links>
+          <Links to="Skills" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Skills</p></Links>
+          <Links to="#" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={redirect}>Resume</p></Links>
+        
         </div>
       </div>
     </nav>
