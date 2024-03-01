@@ -18,7 +18,7 @@ export const Hero = ()=>
     <div className='flex flex-col md:flex-row h-5/6  '>
       <div className="md:w-1/2 p-4 flex justify-center items-center">
       <div>
-      <h2 className="text-4xl font-bold text-white text-left pl-5 "></h2>
+    
       <Heading lineHeight='tall' color={'white'}>
   <Highlight
     query='Bilal'

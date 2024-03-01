@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import { Link as Links } from 'react-scroll';
 
 const Navbar = () => {

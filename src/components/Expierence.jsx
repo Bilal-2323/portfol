@@ -22,7 +22,9 @@ const Accordion = ({ items, background }) => {
       {data.map((item, index) => (
         <div
           key={index}
-          className={`border-gray-300 border-b ${background} transition-colors duration-300 w-screen `}
+          className={`border-gray-300 border-b ${background} transition-colors duration-300 w-screen ${
+            openIndexes.includes(index) ? 'bg-black' : 'bg-opacity-0'
+          }`}
         >
           <button
             onClick={() => toggleAccordion(index)}
@@ -40,8 +42,9 @@ const Accordion = ({ items, background }) => {
             </svg>
           </button>
           {openIndexes.includes(index) && (
-            <div className="p-4 text-gray-500">
+            <div className="p-4 text-gray-400">
               <div>
+              <p></p>
                 {item.responsibility.map(item => (<h1 className='nunito m-1 text-xl text-left'>{item}</h1>))}
                 <div className='flex'>
                   {item.Skills.map(item => (<p className='border-1 p-1 border-gray-900 m-2
@@ -60,7 +63,7 @@ export const Experience = () => {
 
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
+    <div className="min-h-screen flex items-center justify-center">
       <div className="w-full h-full flex items-center justify-center">
         <div className="text-white">
           <h1 className="text-4xl font-bold text-center">Projects</h1>
