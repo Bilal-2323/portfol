@@ -24,6 +24,7 @@ const redirect = () =>
               <Links to="hero" spy={true} smooth={true} offset={50} duration={500}><p className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-300">Home</p></Links>
                 <Links to="aboutme" spy={true} smooth={true} offset={50} duration={500}><p className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-300">About Me</p></Links>
                 <Links to="Skills" spy={true} smooth={true} offset={50} duration={500}><p className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-300">Skills</p></Links>
+                <Links to="Projects" spy={true} smooth={true} offset={50} duration={500}><p className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-300">Projects</p></Links>
                 <Links to="#" ><p className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-300" onClick={redirect}>Resume</p></Links>
               </div>
             </div>
@@ -45,6 +46,7 @@ const redirect = () =>
           <Links to="hero" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</p></Links>
           <Links to="aboutme" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">About</p></Links>
           <Links to="Skills" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Skills</p></Links>
+          <Links to="Projects" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Projects</p></Links>
           <Links to="#" spy={true} smooth={true} offset={50} duration={500}><p className="text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={redirect}>Resume</p></Links>
         
         </div>

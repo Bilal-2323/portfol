@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Link as Links } from 'react-scroll';
+import './styles.css';
 
 
 
 
 export const Hero = ()=>
 {
+  
     
     return(
         <div className="h-screen pt-16" id='hero'>
@@ -28,10 +30,10 @@ export const Hero = ()=>
         <p className="mt-2 text-white text-2xl text-left pl-5 nunito font-medium">A passionate Front-end React Developer based in Hyderabad, India, and an aspiring DevOps engineer.</p></div>
       </div>
       <div className="md:w-1/2  flex justify-center items-center  ">
-        <img src={codegif} alt="Placeholder" className="w-96 " />
+        <img src={codegif} alt="Placeholder" className="w-96 animate-bounce animate-bounce-slow " />
       </div>
     </div>
-    <div className=' flex justify-center items-center h-1/6  '>
+    <div className=' flex justify-center items-center h-1/6  ' id='Skills'>
     <Links to="aboutme" spy={true} smooth={true} offset={50} duration={500}>
     <FontAwesomeIcon icon={faAnglesDown} bounce size="2xl" style={{color: "#ffffff",}} />
     </Links>

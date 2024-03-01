@@ -1,0 +1,14 @@
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  .animate-bounce-slow {
+    animation-name: bounce;
+    animation-duration: 2s; /* Adjust the duration as needed */
+    animation-iteration-count: infinite;
+  }
+  

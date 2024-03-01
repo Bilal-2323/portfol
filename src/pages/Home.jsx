@@ -3,6 +3,7 @@ import Skill from '../components/Skill';
 import Hero from '../components/Hero';
 import Aboutme from '../components/Aboutme';
 import Fooer from '../components/Fooer';
+import Expierence from '../components/Expierence';
 
 const Home = () => {
   
@@ -11,7 +12,8 @@ const Home = () => {
     <Hero/>
     <Skill/>
     <Aboutme/>
-    <Fooer/>
+    <Expierence/>
+  
    </div>
   );
 };
